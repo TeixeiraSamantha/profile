@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+}
+
+body{
+   
+    width: 100vw;
+    height: 100vh;
+}
+.navBar {
+     background-color: palevioletred;
+     width: 100%;
+     height: 10%;
+     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+
+.logo img {
+    width: 130%;
+    height: 120%;
+    object-fit: cover;
+    
+
+
+}
+
+.navList {
+display: flex ;
+gap: 5px;
+justify-content: flex-end;
+align-items: center;
+margin-right: 3%;
+
+}
